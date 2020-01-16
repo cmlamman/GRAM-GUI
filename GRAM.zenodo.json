@@ -4,7 +4,7 @@
     telescope pointing and if the correct star was reduced. Users can also identify and save the location of companion stars, 
     add a variety of tags to the observation, and enter a custom note. A text file of each observation's information is created, 
     which can be compiled into an ensemble file. For more incormation see [Lamman et al. 2020].", 
-    "license": "other-open", 
+    "license": "MIT License", 
     "title": "cmlamman/GRAM-GUI: GRAM Initial release", 
     "version": "1.0.0", 
     "upload_type": "software", 
