@@ -14,7 +14,7 @@ pa = raw_input('Enter path to data directory (Ex- C:/Users/Claire/RoboAO/Data/):
 programnum = raw_input('Enter Program Number (Ex- 3):') 
 path = pa+programnum+'_*'
 nwfl = pa+'preGUI'
-nlist = [s for s in os.listdir(pa) if s.startswith('3_')]                     #make list of directory path  
+nlist = [s for s in os.listdir(pa) if s.startswith(programnum+'_')]                      #make list of directory path  
 names = sorted([i.split(".")[0] for i in (nlist[0::1])])                #Create list of object names
 
 
