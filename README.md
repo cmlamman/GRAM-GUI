@@ -1,5 +1,5 @@
 # GRAM
-This is a GUI for inspecting Robo-AO observations and identifying potential companions within them. The program takes in observations pre-processed by the automated Robo-AO pipeline and allows the user to visually check data quality, telescope pointing and if the correct star was reduced. Users can also identify and save the location of companion stars, add a variety of tags to the observation, and enter a custom note. A text file of each observation's information is created, which can be compiled into an ensemble file. For more incormation see [Lamman et al. 2020].
+This is a GUI for inspecting Robo-AO observations and identifying potential companions within them. The program takes in observations pre-processed by the automated Robo-AO pipeline and allows the user to visually check data quality, telescope pointing and if the correct star was reduced. Users can also identify and save the location of companion stars, add a variety of tags to the observation, and enter a custom note. A text file of each observation's information is created, which can be compiled into an ensemble file. For more incormation see (Lamman et al. 2020).
 
 # Usage
 1. Make sure you have the following modules installed: Tkinter, numpy, matplotlib, astropy, shutil, glob, re, urllib, PIL, os, sys. This code is also written in Python 2.7 (sorry).
