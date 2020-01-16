@@ -30,6 +30,11 @@ for j in trgtlst:                                                   #loop over e
     
     print 'Working on: ' + j.split("/")[-1]+',  '+str(m)+'/'+str(len(trgtlst))   #print current target and progress
     
+    if glob.glob(j+directory+'/strehl/*.txt') == []:
+        m+=1
+        print "no Strehl file"
+        continue
+        
     #ONLY LOOK AT OBJECTS WITH CORE >= 0.1
     stinfo = sorted(glob.glob(j + '/automated/strehl/*.txt'))
     with open(stinfo[0], 'r') as st:
